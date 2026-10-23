@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+}
+
+.ref {
+    display: flex;
+    gap: 20px;
+}
+
+.hire {
+    padding: 6px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+
+.designation {
+    color:rgb(28, 28, 119);
+    margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 20px 0;
+}
+
+.img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 10px solid rgb(13, 129, 138);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
