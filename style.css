@@ -7,11 +7,13 @@ nav {
     display: flex;
     margin: 20px;
     justify-content: space-between;
+    
 }
 
 .ref {
     display: flex;
     gap: 20px;
+    align-items: center;
 }
 
 .hire {
@@ -37,6 +39,11 @@ main {
     width: 300px;
     border-radius: 50%;
     border: 10px solid rgb(13, 129, 138);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    color: blue;
 }
 
 a {
@@ -59,6 +66,7 @@ a {
 .data {
     border: 2px solid rgb(163, 158, 158);
     border-radius: 10px;
+    height: 100px;
 }
 
 .tag {
@@ -172,7 +180,7 @@ td {
 }
 
 h5 {
-    margin: 50px;
+    padding: 40px 0 30px;
 }
 
 .contact {
@@ -182,9 +190,10 @@ h5 {
 }
 
 input {
-    width: 300px;
+    width: 340px;
     height: 50px;
     margin: 5px;
+    transform: translateX(-5px);
 }
 
 .msg {
@@ -212,4 +221,9 @@ footer {
 .cont {
     padding: 15px;
     color: white;
+}
+
+.def {
+    height: 30px;
+    margin-right: 10px;
 }
